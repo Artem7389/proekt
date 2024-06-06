@@ -1,32 +1,14 @@
 ﻿  LoginForm.cpp
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3,23): error C2011: User: переопределение типа "class"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(198,48): error C2065: name: необъявленный идентификатор
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(202,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(203,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(204,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(205,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(206,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(207,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(208,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
+C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(196,48): error C2065: name: необъявленный идентификатор
   MainForm.cpp
-C:\Users\Артем\source\repos\Authorization\Authorization\MainForm.h(27,35): error C2248: User::id: невозможно обратиться к private член, объявленному в классе "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(23): message : см. объявление "User::id"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\MainForm.h(27,58): error C2248: User::name: невозможно обратиться к private член, объявленному в классе "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(24): message : см. объявление "User::name"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
   Program.cpp
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3,23): error C2011: User: переопределение типа "class"
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(198,48): error C2065: name: необъявленный идентификатор
+C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(196,48): error C2065: name: необъявленный идентификатор
+C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(200,1): error C2027: использование неопределенного типа "User"
+C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
+C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(201,1): error C2027: использование неопределенного типа "User"
+C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(202,1): error C2027: использование неопределенного типа "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(203,1): error C2027: использование неопределенного типа "User"
@@ -36,10 +18,6 @@ C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message 
 C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(205,1): error C2027: использование неопределенного типа "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(206,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(207,1): error C2027: использование неопределенного типа "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(208,1): error C2027: использование неопределенного типа "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\MainForm.h(27,1): error C2027: использование неопределенного типа "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
@@ -58,12 +36,10 @@ C:\Users\Артем\source\repos\Authorization\Authorization\RegisterForm.h(354,
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\RegisterForm.h(355,1): error C2027: использование неопределенного типа "User"
 C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\Program.cpp(9,32): error C2011: Authorization::LoginForm: переопределение типа "class"
-C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(22): message : см. объявление "Authorization::LoginForm"
+C:\Users\Артем\source\repos\Authorization\Authorization\Program.cpp(10,32): error C2011: Authorization::LoginForm: переопределение типа "class"
+C:\Users\Артем\source\repos\Authorization\Authorization\LoginForm.h(20): message : см. объявление "Authorization::LoginForm"
+C:\Users\Артем\source\repos\Authorization\Authorization\Program.cpp(59,31): error C2065: sp1: необъявленный идентификатор
   RegisterForm.cpp
 C:\Users\Артем\source\repos\Authorization\Authorization\RegisterForm.h(334,25): warning C4129: M: неизвестная escape-последовательность
-C:\Users\Артем\source\repos\Authorization\Authorization\RegisterForm.h(350,11): error C2512: User::User: нет подходящего конструктора по умолчанию
-C:\Users\Артем\source\repos\Authorization\Authorization\RegisterForm.h(351,8): error C2248: User::name: невозможно обратиться к private член, объявленному в классе "User"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(24): message : см. объявление "User::name"
-C:\Users\Артем\source\repos\Authorization\Authorization\User.h(3): message : см. объявление "User"
+C:\Users\Артем\source\repos\Authorization\Authorization\RegisterForm.h(359,21): warning C4101: ex: неиспользованная локальная переменная
   Создание кода...

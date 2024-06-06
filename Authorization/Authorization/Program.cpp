@@ -4,6 +4,7 @@
 #include "LoginForm.h"
 #include "MainForm.h"
 #include "RegisterForm.h"
+#include <iostream>
 
 namespace Authorization {
     public ref class LoginForm : public System::Windows::Forms::Form
@@ -45,4 +46,23 @@ namespace Authorization {
             }
         }
     };
+
+    int main() {
+        sqlite3* db;
+        int rc = sqlite3_open("User.db", &db);
+
+        if (rc) {
+            std::cerr << "Can't open database:" << sqlite3_errmsg(db) << std::endl;
+            return 1;
+        }
+        const char* sq1 = "CREATE TABLE IF NOT EXISTS test (id INTEGER PRIMARY KEY, name TEXT);";
+        rc = sqlite3_exec(db, sp1, nullptr, nullptr, nullptr);
+
+        if (rc != SQLITE_OK) {
+            std::cerr << "SQL error:" << sqlite3_errmsg(db) << std::endl;
+        }
+
+        sqlite3_close(db);
+        return 0;
+    }
 }

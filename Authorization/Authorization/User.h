@@ -14,12 +14,16 @@ public:
         void set(String^ value) { name = value; }
     }
 
-    String^ email;
-    String^ phone;
-    String^ address;
-    String^ password;
-
-private:
+public:
     int id;
-    String^ name;
+    System::String^ name;
+    System::String^ email;
+    System::String^ phone;
+    System::String^ address;
+    System::String^ password;
+
+    // Конструктор по умолчанию
+    User() {
+        // Инициализация полей, если это необходимо
+    }
 };

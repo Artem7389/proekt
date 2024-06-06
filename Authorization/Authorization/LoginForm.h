@@ -1,8 +1,6 @@
 #pragma once
 #include <string>
 #include <sqlite3.h>
-#include <string>
-#include "User.h"
 #include "User.h"
 
 
